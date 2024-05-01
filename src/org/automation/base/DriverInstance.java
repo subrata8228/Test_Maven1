@@ -28,7 +28,6 @@ public class DriverInstance {
 		
 		driver.get(Utility.fetchProperty("url").toString());
 		
-		
 	}
 	@AfterMethod
 	public void closeDriver() {
